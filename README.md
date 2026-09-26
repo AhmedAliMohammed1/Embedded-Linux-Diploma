@@ -1,285 +1,81 @@
 # Embedded Linux Learning Journey
 
-This repository is an **educational workspace** for documenting my progress through the **Embedded Linux learning journey from Bullet Guru**.
+Hands-on C++ and Embedded Linux work from the [Bullet Guru learning journey](https://bullet.guru/journey). This repository collects my implementations, experiments, notes, and project work as I progress through the course.
 
-The repository follows the same module structure as the course.  
-Each module will contain my own work, including:
+## Learning path
 
-- Lesson implementations
-- Practice code
-- Exercises
-- Tasks
-- Assignments
-- Projects
-- Experiments
-- Notes
+| # | Module | Lessons | Progress | Draft titles |
+|---:|---|---:|---|---|
+| 01 | [C++ Foundations and Embedded Build Workflow](./01%20-%20C%2B%2B%20Foundations%20and%20Embedded%20Build%20Workflow/) | 9 | Completed  [View](./LESSONS.md#module-01) |
+| 02 | [Types, Memory, and Data Representation](./02%20-%20Types%2C%20Memory%2C%20and%20Data%20Representation/) | 16 | In progress  [View](./LESSONS.md#module-02) |
+| 03 | [Control Flow and Functions for Device Software](./03%20-%20Control%20Flow%20and%20Functions%20for%20Device%20Software/) | 8 | To do  [View](./LESSONS.md#module-03) |
+| 04 | [Classes, RAII, and Resource Lifetime](./04%20-%20Classes%2C%20RAII%2C%20and%20Resource%20Lifetime/) | 9 | To do  [View](./LESSONS.md#module-04) |
+| 05 | [Move Semantics and Ownership](./05%20-%20Move%20Semantics%20and%20Ownership/) | 8 | To do  [View](./LESSONS.md#module-05) |
+| 06 | [Embedded C++ Error Handling](./06%20-%20Embedded%20C%2B%2B%20Error%20Handling/) | 5 | To do  [View](./LESSONS.md#module-06) |
+| 07 | [Concurrency for Embedded Linux Applications](./07%20-%20Concurrency%20for%20Embedded%20Linux%20Applications/) | 14 | To do  [View](./LESSONS.md#module-07) |
+| 08 | [Embedded Software Design](./08%20-%20Embedded%20Software%20Design/) | 12 | To do  [View](./LESSONS.md#module-08) |
+| 09 | [Embedded Linux Environment and Workflow](./09%20-%20Embedded%20Linux%20Environment%20and%20Workflow/) | 7 | To do  [View](./LESSONS.md#module-09) |
+| 10 | [Raspberry Pi and Hardware Interfaces](./10%20-%20Raspberry%20Pi%20and%20Hardware%20Interfaces/) | 3 | To do  [View](./LESSONS.md#module-10) |
+| 11 | [Yocto Project and Embedded Linux Builds](./11%20-%20Yocto%20Project%20and%20Embedded%20Linux%20Builds/) | 8 | To do  [View](./LESSONS.md#module-11) |
+| 12 | [Linux Kernel Platform Drivers and Device Model](./12%20-%20Linux%20Kernel%20Platform%20Drivers%20and%20Device%20Model/) | 7 | To do  [View](./LESSONS.md#module-12) |
+| 13 | [Qt and Embedded HMI Development](./13%20-%20Qt%20and%20Embedded%20HMI%20Development/) | 7 | To do  [View](./LESSONS.md#module-13) |
+| 14 | [Embedded Linux Security and Product Readiness](./14%20-%20Embedded%20Linux%20Security%20and%20Product%20Readiness/) | 4 | To do  [View](./LESSONS.md#module-14) |
 
-The purpose of this repository is to organize my learning journey and build practical experience with **C++, Embedded Linux, Linux systems, hardware interaction, Yocto, kernel development, Qt, and embedded software engineering**.
+**Total:** 14 modules and 117 lessons. Progress is updated manually. The [draft lesson index](./LESSONS.md) lists the available titles from the earlier 35-module journey; it is a topic reference while current lesson names remain unavailable.
 
----
+## Practical work
 
-## Course Structure
+The following folders organize the virtual internships, engineering tickets, and guided workday listed in my Bullet Guru journey draft. Their contents will be my own implementations.
 
-The course consists of **14 modules**.
+### Virtual internships
 
-| # | Module | Lessons |
-|---:|---|---:|
-| 01 | C++ Foundations and Embedded Build Workflow | 9 |
-| 02 | Types, Memory, and Data Representation | 16 |
-| 03 | Control Flow and Functions for Device Software | 8 |
-| 04 | Classes, RAII, and Resource Lifetime | 9 |
-| 05 | Move Semantics and Ownership | 8 |
-| 06 | Embedded C++ Error Handling | 5 |
-| 07 | Concurrency for Embedded Linux Applications | 14 |
-| 08 | Embedded Software Design | 12 |
-| 09 | Embedded Linux Environment and Workflow | 7 |
-| 10 | Raspberry Pi and Hardware Interfaces | 3 |
-| 11 | Yocto Project and Embedded Linux Builds | 8 |
-| 12 | Linux Kernel Platform Drivers and Device Model | 7 |
-| 13 | Qt and Embedded HMI Development | 7 |
-| 14 | Embedded Linux Security and Product Readiness | 4 |
+- [Build a cluster application on an Embedded Linux processor](./Virtual%20Internships/01%20-%20Build%20Cluster%20Application%20on%20Embedded%20Linux%20Processor/)
+- [Build an Embedded Linux image with phone mirroring](./Virtual%20Internships/02%20-%20Build%20Embedded%20Linux%20Image%20with%20Phone%20Mirroring%20Features/)
+- [Design an IoT system with object-oriented analysis and design](./Virtual%20Internships/03%20-%20Design%20A%20IOT%20system%20with%20OOAD/)
 
----
+### Engineering tickets
 
-## Repository Structure
+- [Collect Linux machine information with Bash](./Journey%20Tickets/01%20-%20Linux%20machine%20information%20Bash%20script/)
+- [Analyze network traffic with Wireshark and automate tasks](./Journey%20Tickets/02%20-%20Wireshark%20network%20traffic%20and%20automation/)
+- [Write a Yocto recipe for a Qt application](./Journey%20Tickets/03%20-%20Yocto%20recipe%20for%20Qt%20application/)
+- [Design a modern C++ calculator using design patterns](./Journey%20Tickets/04%20-%20Modern%20C%2B%2B%20calculator%20with%20design%20patterns/)
 
-The repository mirrors the course modules:
+### Guided workday
+
+- [Resolve critical issues in an infotainment project](./Guided%20Workdays/01%20-%20Infotainment%20project%20critical%20issues/)
+
+## How this repository is organized
+
+Each module has `Lessons/`, `Tasks/`, `Tickets/`, `Projects/`, and `Notes/`. Numbered lesson folders are placeholders until I add their actual lesson names. The practical work above has its own top-level folders so larger deliverables are easy to find.
 
 ```text
 Embedded-Linux/
-│
 ├── 01 - C++ Foundations and Embedded Build Workflow/
 │   ├── Lessons/
 │   ├── Tasks/
+│   ├── Tickets/
 │   ├── Projects/
 │   └── Notes/
-│
 ├── 02 - Types, Memory, and Data Representation/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 03 - Control Flow and Functions for Device Software/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 04 - Classes, RAII, and Resource Lifetime/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 05 - Move Semantics and Ownership/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 06 - Embedded C++ Error Handling/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 07 - Concurrency for Embedded Linux Applications/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 08 - Embedded Software Design/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 09 - Embedded Linux Environment and Workflow/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 10 - Raspberry Pi and Hardware Interfaces/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 11 - Yocto Project and Embedded Linux Builds/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 12 - Linux Kernel Platform Drivers and Device Model/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-├── 13 - Qt and Embedded HMI Development/
-│   ├── Lessons/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Notes/
-│
-└── 14 - Embedded Linux Security and Product Readiness/
-    ├── Lessons/
-    ├── Tasks/
-    ├── Projects/
-    └── Notes/
+├── ... modules 03–14
+├── Virtual Internships/
+├── Journey Tickets/
+├── Guided Workdays/
+├── create_course_structure.ps1
+├── LESSONS.md
+└── README.md
 ```
 
----
+## Set up the folders on Windows
 
-## Folder Organization
+From the repository root in PowerShell, run the [folder creation script](./create_course_structure.ps1):
 
-Each module uses the same basic organization.
-
-### `Lessons`
-
-Contains code and experiments created while following individual lessons.
-
-As I progress through the course, lesson folders will be renamed using their actual lesson titles.
-
-Example:
-
-```text
-02 - Types, Memory, and Data Representation/
-└── Lessons/
-    ├── 01 - Lesson Name/
-    ├── 02 - Lesson Name/
-    ├── 03 - Lesson Name/
-    └── ...
+```powershell
+.\create_course_structure.ps1
 ```
 
-### `Tasks`
+It creates the 14 modules, 117 numbered lesson placeholders, and practical-work folders. It can be run again without deleting existing work.
 
-Contains exercises, assignments, and practical tasks related to the module.
+## About this repository
 
-### `Projects`
-
-Contains larger implementations that combine several concepts from the module.
-
-### `Notes`
-
-Contains my personal notes, explanations, commands, diagrams, and useful references.
-
----
-
-## Learning Path
-
-The course progresses from C++ fundamentals toward complete Embedded Linux development:
-
-```text
-C++ Foundations
-        ↓
-Types and Memory
-        ↓
-Functions and Device Software
-        ↓
-Classes and RAII
-        ↓
-Move Semantics and Ownership
-        ↓
-Error Handling
-        ↓
-Concurrency
-        ↓
-Embedded Software Design
-        ↓
-Embedded Linux Environment
-        ↓
-Raspberry Pi and Hardware
-        ↓
-Yocto Project
-        ↓
-Linux Kernel and Drivers
-        ↓
-Qt and Embedded HMI
-        ↓
-Security and Product Readiness
-```
-
----
-
-## Progress
-
-Current progress based on my course journey:
-
-- [x] 01 - C++ Foundations and Embedded Build Workflow
-- [ ] 02 - Types, Memory, and Data Representation
-- [ ] 03 - Control Flow and Functions for Device Software
-- [ ] 04 - Classes, RAII, and Resource Lifetime
-- [ ] 05 - Move Semantics and Ownership
-- [ ] 06 - Embedded C++ Error Handling
-- [ ] 07 - Concurrency for Embedded Linux Applications
-- [ ] 08 - Embedded Software Design
-- [ ] 09 - Embedded Linux Environment and Workflow
-- [ ] 10 - Raspberry Pi and Hardware Interfaces
-- [ ] 11 - Yocto Project and Embedded Linux Builds
-- [ ] 12 - Linux Kernel Platform Drivers and Device Model
-- [ ] 13 - Qt and Embedded HMI Development
-- [ ] 14 - Embedded Linux Security and Product Readiness
-
----
-
-## Technologies and Areas Covered
-
-Throughout the learning journey, this repository will contain work related to areas such as:
-
-- C++
-- Modern C++
-- Linux
-- Embedded Linux
-- Build workflows
-- Memory and resource management
-- Multithreading and concurrency
-- Embedded software design
-- Raspberry Pi
-- Hardware interfaces
-- Yocto Project
-- Linux kernel development
-- Platform drivers
-- Linux device model
-- Qt
-- Embedded HMI
-- Embedded Linux security
-
-The exact content of each module will be added as I progress through the course.
-
----
-
-## Purpose
-
-This repository is intended for **educational purposes**.
-
-It serves as:
-
-- A record of my Embedded Linux learning journey
-- A workspace for coding exercises
-- A collection of my own solutions and implementations
-- A place for hardware and Linux experiments
-- A reference for reviewing C++ and Embedded Linux concepts
-- A portfolio of practical Embedded Linux work
-
-This repository contains **my own code, notes, experiments, and implementations**.
-
-It does not redistribute paid course materials.
-
----
-
-## Course
-
-**Embedded Linux Learning Journey — Bullet Guru**
-
-https://bullet.guru/journey
-
----
-
-## Status
-
-This repository is a work in progress and will be updated continuously as I complete new lessons, tasks, and projects.
+The module titles and lesson counts follow my 14-module journey view. The virtual internships, tickets, and workday come from the July 2026 journey draft. This repository contains my own work and does not redistribute paid course material.
